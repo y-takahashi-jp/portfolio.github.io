@@ -3,7 +3,8 @@
   "description": "GithubPagesportfolio",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
